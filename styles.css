@@ -1,0 +1,91 @@
+*{
+    background-image: url('https://previews.123rf.com/images/songglod/songglod1606/songglod160600144/60108682-abstract-simple-plain-flat-yellow-watercolor-background.jpg');
+    background-attachment: fixed;
+    background-color: white;
+    font-size: large;
+    background-position-x: no repeat;
+}
+body{
+     font-family:Lucida Sans;
+     border: 10px dotted blue;
+
+}
+h1{
+    font-family:fantasy;
+    background-color: aquamarine;
+    font-weight: 600;
+    text-align: center;
+    text-shadow:15px black;
+    font-size: 30px ;
+}
+/* .nav-wrap{
+    display: inline-block;
+    margin:50px auto;
+    background-color:white;
+} */
+h2{
+    font-family: Arial Narrow Bold;
+    background-color: aquamarine;
+    font-weight: 600;
+    text-align: center;
+    text-shadow:15px black;
+    font-size: 30px;
+    text-decoration: underline;
+}
+#contact{
+    background-color: grey;
+    background-attachment: fixed;
+}
+
+nav li{
+    display: inline-block;
+    text-decoration: none;
+    background-color:white;
+     direction: flex;
+    text-align: right;
+    padding: 20px;
+    text-align: center;
+    padding: 50px;
+    margin:0px;
+    width:30px;
+}
+footer{
+    text-align: center;
+    font-style: italic;
+}
+/*
+#home{
+    border:2px dotted blue;
+}
+#about{
+    border:2px dotted blue;   
+}
+#royals{
+    border:2px dotted blue;
+}
+#contact{
+    border:2px dotted blue;
+}*/
+nav li a:hover{
+    background-color: aquamarine;
+    border-radius: 5px;
+}
+ol{
+    list-style-type: upper-roman;
+}
+/*
+.contact{
+    border:2px solid grey;
+}
+#royals{
+    border:2px solid grey;
+}*/
+.home{
+    border:2px solid grey;
+}
+#about{
+    border:2px solid grey;
+}
+#royals{
+    border:2px solid grey;
+}
